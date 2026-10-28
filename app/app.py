@@ -1,4 +1,4 @@
-"""API de démonstration du cours DevOps avancé : métriques Prometheus et pannes simulées (v1.0.0)."""
+"""API de démonstration du cours DevOps avancé : métriques Prometheus et pannes simulées (v1.0.1)."""
 import os
 import random
 import time
