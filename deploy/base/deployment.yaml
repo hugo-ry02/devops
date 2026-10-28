@@ -30,3 +30,7 @@ spec:
               memory: 64Mi
             limits:
               memory: 128Mi
+          envFrom:
+            - secretRef:
+                name: api-secret
+                optional: true
