@@ -1,36 +1,19 @@
-# OpenTofu / Terraform
-**/.terraform/*
+# Terraform / OpenTofu
+.terraform/
 *.tfstate
 *.tfstate.*
+*-config
 crash.log
 crash.*.log
-*.tfvars
-*.tfvars.json
-override.tf
-override.tf.json
-*_override.tf
-*_override.tf.json
-.terraformrc
-terraform.rc
+
+# Ne PAS ignorer les .tfvars sans secrets requis par le cours
+!*.tfvars
 
 # Kubernetes & Secrets
 *.kubeconfig
 kubeconfig
-*.key
-*.pem
-*.crt
-# IMPORTANT: do not commit unsealed plaintext secrets
-*.secret.yaml
 
-# Helm
-*.tgz
-
-# Environnement & clés
-.env
-.env.*
-!.env.example
-
-# IDE & OS
+# OS & IDE
 .DS_Store
 Thumbs.db
 .vscode/
