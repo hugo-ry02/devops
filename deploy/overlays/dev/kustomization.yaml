@@ -4,9 +4,9 @@ kind: Kustomization
 namespace: dev
 
 resources:
-  - ../../base
+- ../../base
 
 images:
-  - name: api
-    newName: api
-    newTag: initial
+- name: api
+  newName: ghcr.io/hugo-ry02/devops
+  newTag: e0c931b0
