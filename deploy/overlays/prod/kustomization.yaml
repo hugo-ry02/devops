@@ -8,8 +8,8 @@ resources:
 
 images:
   - name: api
-    newName: api
-    newTag: initial
+    newName: ghcr.io/hugo-ry02/devops
+    newTag: e0c931b0
 
 replicas:
   - name: api
